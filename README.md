@@ -19,7 +19,8 @@ MY_APP
 ## TO RUN
 
 1. Enter the *run_asm* folder
-2. Run the comamnd `./run.sh` to run the file you entered in **FILE_NAME**
+2. Make the **run.sh** file and excecutable with `chmod +x run.sh`
+3. Run the comamnd `./run.sh` to run the file you entered in **FILE_NAME**
 
 ## ADDITIONAL OPTIONS
 
