@@ -25,14 +25,14 @@ MY_APP
 ## ADDITIONAL OPTIONS
 
 > DEBBUGING
-
+>
 >>To enter debug mode (Running with GDB instead of GCC), run the program normally with `-d` or `--debug` flags `./run -d` or `./run --debug`
-
+>
 > CHANGING FILENAME IN THE TERMINAL
-
+>
 >> If you want to run the program with a different name than it is in the file **file_name**, you can change it in a few ways:
- >>> 1. Entering it as the second argument, if running with the debug flag: `./run -d <different_file>`
-2.  As the first argument without the debug flag, `./run <different_file>`
-3. With the `--name` or the `-n` flag combined with the name of the file, this can run with our without other flags in any position (Some options where `--name` and `-n` are interchangable and not listed): `./run --name <different_file>` **OR** `./run -n <different_file>` **OR** `./run -d -n <different_file>` **`./run -n <different_file> -d`
+>>> 1. Entering it as the second argument, if running with the debug flag: `./run -d <different_file>`
+>>>2.  As the first argument without the debug flag, `./run <different_file>`
+>>>3. With the `--name` or the `-n` flag combined with the name of the file, this can run with our without other flags in any position (Some options where `--name` and `-n` are interchangable and not listed): `./run --name <different_file>` **OR** `./run -n <different_file>` **OR** `./run -d -n <different_file>` **`./run -n <different_file> -d`
 
 
